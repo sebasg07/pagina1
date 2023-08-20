@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Educación</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--Etiqueta usada para colocar el autor de la página web-->
+		<meta name='author' content='Miguel Angel Escobar Ocampo / Daniela Ortiz Cubillos'>
+		<!--Etiqueta usada para colocar las palabras con las cuales se indexara la página y se podrá
+		encontrar por google-->
+		<meta name='keywords' content='html, examen'>
+		<!--Etiqueta usada para dar una descripción de la página web-->
+		<meta name='description' content='Desarrollo del examen No 1, de la materia programación 4'>
+		<style>
+			.form{
+				margin-bottom: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Título del sitio -->
+		<h1>Hoja de Vida</h1>
+		<!-- Sección header - Imágen principal -->
+		<header>
+			<!-- Imagen principal -->
+			<img src="./resource/media/Trynet_Logo_T.png" alt="Imagen-trynet" width="150">
+			<!-- Sección de Navegación -->
+			<nav>
+				<!-- Título del Nav -->
+				<h2>Miguel Ángel Escobar Ocampo</h2>
+				<!-- Lista de Navegación -->
+				<ul>
+					<li>
+						<a href="#">Inicio</a>
+					</li>
+					<li>
+						<a href="./index.html">Educación</a>
+					</li>
+					<li>
+						<a href="./experiencia/index.html">Experiencia</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Sección 1 - Educación -->
+		<section>
+			<!-- Título de la tabla -->
+			<h3>Educación</h3>
+			<!-- Tabla de Educación -->
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Año</th>
+						<th>Institución</th>
+						<th>Lugar</th>
+						<th>¿Culminó?</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2018</td>
+						<td>Universidad de Manizales</td>
+						<td>Manizales</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2019</td>
+						<td>Universidad de Manizales</td>
+						<td>Manizales</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2024</td>
+						<td>Universidad de Manizales</td>
+						<td>Manizales</td>
+						<td>No</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<hr>
+		<!-- Sección 2 - Agregar Educación -->
+		<section>
+			<!-- Título del formulario -->
+			<h3>Agregar Educación</h3>
+			<!-- Formulario -->
+			<form action="">
+				<!-- Año -->
+				<div class="form">
+					<label for="">Año:</label>
+					<select name="año" id="año" required>
+						<option value="2010">2010</option>
+						<option value="2011">2011</option>
+						<option value="2012">2012</option>
+						<option value="2013">2013</option>
+						<option value="2014">2014</option>
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+						<option value="2020">2020</option>
+						<option value="2021">2021</option>
+						<option value="2022">2022</option>
+						<option value="2023">2023</option>
+						<option value="2024">2024</option>
+						<option value="2025">2025</option>
+					</select>
+				</div>
+				<!-- Institución -->
+				<div class="form">
+					<label for="">Institución:</label>
+					<input type="text" name="institucion" id="institucion" required>
+				</div>
+				<!-- Lugar -->
+				<div class="form">
+					<label for="">Lugar:</label>
+					<textarea name="lugar" id="Lugar" cols="30" rows="10" required></textarea>
+				</div>
+				<!-- ¿Culminó? -->
+				<div class="form">
+					<label for="">¿Culminó?</label>
+					<input type="radio" name="valor" id="si" required checked>
+					<label for="">Si</label>
+					<input type="radio" name="valor" id="no" required>
+					<label for="">No</label>
+				</div>
+				<button type="button">Submit</button>
+			</form>
+		</section>
+				<!-- Sección Footer -->
+				<footer>
+					<!-- Lista Datos -->
+					<ul>
+						<!-- Email  -->
+						<li>
+							Email: <a href="mailto:maescobarocampo@gmail.com" >maescobarocampo@gmail.com</a>
+						</li>
+						<!-- Teléfono -->
+						<li>
+							Teléfono: <a href="tel:+573015605651">(+57) 301-560-5651</a>
+						</li>
+						<!-- Redes Sociales -->
+						<li>
+							Redes Sociales
+							<ul>
+								<li>
+									Facebook: <a href="https://www.facebook.com/miguel.escobarocampo.3/" target="_blank">Miguel Escobar Ocampo</a></li>
+								<li>
+									Instagram: <a href="https://www.instagram.com/mike.escobar08/" target="_blank">@mike.escobar08</a></li>
+							</ul>
+						</li>
+						<!-- Dirección -->
+						<li>
+							Dirección: <a href="https://goo.gl/maps/mznutS78sW12ggzh6" target="_blank">Calle 58f # 8 - 48</a>
+						</li>
+					</ul>
+				</footer>
+	</body>
+</html>
