@@ -1,0 +1,118 @@
+nav {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+body {
+  margin: 1%;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+.img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Altura opcional para el contenedor */
+  margin-top: 2%;
+}
+
+img {
+  max-width: 100%; /* Asegura que la imagen no sea más grande que su contenedor */
+  max-height: 100%; /* Asegura que la imagen no sea más alta que su contenedor */
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #000000;
+  color: white;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.redes-sociales {
+  text-align: center;
+}
+
+.iconos {
+  margin-top: 20px;
+}
+
+.icono {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #ded3d3; /* Color de los iconos */
+}
+.centrado {
+  display: flex;
+  justify-content: center;
+}
+
+.centrado li {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f0f0f0;
+}
+.img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Altura opcional para el contenedor */
+  margin-top: 4%;
+}
+.img3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}

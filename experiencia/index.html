@@ -5,95 +5,193 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Experiencia</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--Etiqueta usada para colocar el autor de la página web-->
-		<meta name='author' content=''>
-		<!--Etiqueta usada para colocar las palabras con las cuales se indexara la página y se podrá
-		encontrar por google-->
-		<meta name='keywords' content=''>
+		<meta name="author" content="Sebastian Galeano ">
+		<meta name='Sebastian Galeano' content=''>
+		<meta name='keywords' content='hoja de vida,sebas'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 		<!--Etiqueta usada para dar una descripción de la página web-->
-		<meta name='description' content=''>
+		<meta name='description' content='hoja de vida para presentar de forma virtual y en una pagina web'>
+		<link rel="stylesheet" href="style.css">
+		
 	</head>
 	<body>
 		<!-- Título del sitio -->
-		<h1>Hoja de Vida</h1>
-		<!-- Sección header - Imágen principal -->
-		<header>
+		<h1 class="header">Hoja de Vida</h1>
+		<nav>
+			<!-- Título del Nav -->
+			<h2></h2>
+			<!-- Lista de Navegación -->
+			<ul>
+				<li>
+					<a href="index.html">Inicio</a>
+				</li>
+				<li>
+					<a href="#seccion1">Educación</a>
+				</li>
+				<li>
+					<a href="#seccion2">Experiencia</a>
+				</li>
+				<li>
+					<a href="#seccion3">Pasatiempos/gustos</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="img1">
+		<img src="C:\Users\Sebas\Downloads\memes/istockphoto-1386341272-612x612.jpg" alt="programador con un buen manejo de las diferentes herramientas informaticas	">		<header>
 			<!-- Imagen principal -->
 			<img src="" alt="" width="150">
 			<!-- Sección de Navegación -->
-			<nav>
-				<!-- Título del Nav -->
-				<h2></h2>
-				<!-- Lista de Navegación -->
-				<ul>
-					<li>
-						<a href="#">Inicio</a>
-					</li>
-					<li>
-						<a href="./index.html">Educación</a>
-					</li>
-					<li>
-						<a href="./index.html">Experiencia</a>
-					</li>
-				</ul>
-			</nav>
+		</div>
 		</header>
 		<!-- Título Experiencia -->
-		<h2>Experiencia</h2>
+        <div id="seccion1">
+			<h2>Educación</h2>
+		</div>
 		<hr>
+		<section>
+			<!-- Título de la tabla -->
+
+			<!-- Tabla de Educación -->
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Año</th>
+						<th>Institución</th>
+						<th>Lugar</th>
+						<th>¿Culminó?</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2018</td>
+						<td>Institución educativa Monseñor Alfonso de los Rios</td>
+						<td>Arauca Caldas</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2019</td>
+						<td>Sena</td>
+						<td>Bogota</td>
+						<td>Si</td>
+					</tr>
+					<tr>
+						<td>2024</td>
+						<td>Censa</td>
+						<td>Manizales</td>
+						<td>No</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		    <div id="seccion2">
+			<h2>Experiencia</h2>
+		</div>
+		<hr>
+		<section>
+			<!-- Título de la tabla -->
+			<!-- Tabla de Educación -->
+			<table border="2">
+				<thead>
+					<tr>
+						<th>Año</th>
+						<th>Empresa</th>
+						<th>Lugar</th>
+						<th>motivo de retiro</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2019</td>
+						<td>teleperformance</td>
+						<td>Bogota</td>
+						<td>Voluntario</td>
+					</tr>
+					<tr>
+						<td>2022</td>
+						<td>Uno27</td>
+						<td>Manizales</td>
+						<td>Voluntario</td>
+					</tr>
+					<tr>
+						<td>2023</td>
+						<td>Abai</td>
+						<td>Manizales</td>
+						<td>Voluntario</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
 		<!-- Sección 1 - Video -->
 		<section>
-			<!-- Título Video -->
-			<h2>Video - Socia Daniela Ortiz Cubillos</h2>
+			<div id="seccion3">
+			<h2>Video - gustos de Sebastian Galeano</h2>
+		</div>
 			<!-- Video  -->
-			<video controls>
-				<source src="" srcset="" type="video/mp4">
+			<div class="img2">
+			<video width="640" height="360" controls>
+				<source src="C:\Users\Sebas\Videos\REM Losing My Religion Esp-(480p).mp4" srcset="Videos" type="video/mp4">
 			</video>
+			</div>
 			<!-- Descripción Video  -->
-			<p>Socia Daniela Ortiz Cubillos - Intro</p>
+			<div class="img3">
+			<p>sebas galeano - Intro</p>
+		</div>
 		</section>
 		<hr>
 		<!-- Sección 2 - Audio -->
 		<section>
 			<!-- Título Audio -->
-			<h2>Música que le gusta a Miguelito - Rockstar Marimba</h2>
+			<h2>Música que le gusta a Sebas - Rock clasico</h2>
 			<!-- Audio -->
+			<div class="img3">
 			<audio controls>
-				<source src="../resource/media/rockstar_marimba.mp3" type="audio/mp3">
+				<source src= "../musica/Eagles - Hotel California (Live 1977) (Official Video) [HD] (320 kbps).mp3" type="audio/mp3">
 			</audio>
 			<!-- Descripción del Audio -->
 			<p>
-				Música que le gusta a Miguelito - Rockstar Marimba - Audio completo <br>
+				Música que le gusta a sebas - Rock clasico - Audio completo <br>
 				@ Derechos Reservados
-			</p>
+			</p></div>
 		</section>
 		<!-- Sección Footer -->
 		<footer>
-			<!-- Lista Datos -->
-			<ul>
+			<div class="iconos">
+				<ul class="centrado">
 				<!-- Email  -->
-				<li>
-					Email: <a href="" ></a>
-				</li>
+				<section class="redes-sociales">
+					<h3>Redes sociales</h2>
+					
+					<li><a  href="https://www.facebook.com/sebas.galeano.351756/" class="icono"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="mailto:sebas7077@gmail.com" class="icono"><i class="fas fa-envelope"></i></a></li>
+							<li><a href="https://www.instagram.com/sebasgaleano13/" class="icono"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://wa.me/573008442270" class="icono"><i class="fab fa-whatsapp"></i></a></li>
+									<li><a href="https://maps.app.goo.gl/JRsqd89bJSS7cFhK8" class="icono"><i class="fas fa-map-marker-alt"></i></a>
+									</li>		
+				</section>
 				<!-- Teléfono -->
-				<li>
-					Teléfono: <a href=""></a>
-				</li>
-				<!-- Redes Sociales -->
-				<li>
-					Redes Sociales
-					<ul>
-						<li>
-							Facebook: <a href="/" target=""></a></li>
-						<li>
-							Instagram: <a href="" target="_blank"></a></li>
-					</ul>
-				</li>
-				<!-- Dirección -->
-				<li>
-					Dirección: <a href="" target="_blank"></a>
-				</li>
-			</ul>
+			</ul>	
+		
+				
+				
+		</div>
 		</footer>
 	</body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrar li verticalmente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul class="lista-centrada">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+</body>
+</html>
+gi
